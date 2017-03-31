@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		p, h2{font-family:Arial;}
+	</style>
+</head>
+<body>
+	<h2>JS. Syntax</h2>
+	<p>JavaScript <b>syntax</b> is the set of rules, how JavaScript programs are constructed.</p>
+
+	<h2>JavaScript Programs</h2>
+	<p>A <b>computer program</b> is a list of "instructions" to be "executed" by the computer. <br></p>
+	<p>In a programming language, these program instructions are called <b>statements.</b></p>
+	<p>JavaScript is a <b>programming language.</b></p>
+	<p>JavaScript statements are separated by <b>semicolons:</b></p>
+	<p><b>In HTML, JavaScript programs are executed by the web browser.</b></p>
+	
+	<p>Example:</p>
+	<p>Statements are separated by semicolons.<br>
+	The variables x, y, and z are assigned the values 5,6, and 11.<br>
+	Then the value of z is displayed in the pragraph below:
+	</p>
+	<p id="demo"></p>
+
+	<script>
+		var x,y,z;
+		x=5
+		y=6
+		z= x+y
+		document.getElementById("demo").innerHTML = z
+	</script>
+
+	<h2>JavaScript Statements</h2>	
+	<p>JavaScript statements are composed of:<br>
+	<b>Values, Operators, Expressions, Keywords and Comments.</b></p>
+
+	<h2>JavaScript Values</h2>
+	<p>The JavaScript syntax defines two types of values:<br>
+	 - Fixed values<br>
+	 - Variable values<br></p>
+	<p>Fixed values are called <b>literals.</b> Variable values are called <b>variables.</b></p>
+
+	<h2>JavaScript Literals</h2>
+	<p>The most important rules for writing fixed values are:</p>
+	<p><b>Numbers</b> are written with or without decimals:</p>
+	<p><b>Strings</b> are text, written within double or single quotes:</p>
+
+	<h2>JavaScript Variables</h2>
+	<p>In a programing language, <b>variables</b> are used to <b>store</b> data values. <br>
+	JavaScript uses the <b>var</b> keyword to <b>declare</b> variables.</p>
+	<p>An <b>equal sign</b> is used to <b>assign values</b> to variables.<br>
+	In this example, x is defined as a variable. Then, x is assigned (given) the value 6:</p>
+	<p id="demo"></p>
+	<script>
+		var x;
+		x = 6;
+		document.getElementById("demo").innerHTML = x;
+	</script>
+
+	<h2>JavaScript operators</h2>
+	<p>JS uses <b>arithmetic operators (+-*/)</b> to <strong>compute</strong> values:</p>
+	<p id="demo"></p>
+	<script>
+		document.getElementById("demo").innerHTML = ( 5 + 6) * 10
+	</script>
+</body>
+</html>
