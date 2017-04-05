@@ -51,18 +51,102 @@
 	JavaScript uses the <b>var</b> keyword to <b>declare</b> variables.</p>
 	<p>An <b>equal sign</b> is used to <b>assign values</b> to variables.<br>
 	In this example, x is defined as a variable. Then, x is assigned (given) the value 6:</p>
-	<p id="demo"></p>
+	<p id="demo0"></p>
 	<script>
 		var x;
 		x = 6;
-		document.getElementById("demo").innerHTML = x;
+		document.getElementById("demo0").innerHTML = x;
 	</script>
 
 	<h2>JavaScript operators</h2>
 	<p>JS uses <b>arithmetic operators (+-*/)</b> to <strong>compute</strong> values:</p>
-	<p id="demo"></p>
+	<p id="demo1"></p>
 	<script>
-		document.getElementById("demo").innerHTML = ( 5 + 6) * 10
+		document.getElementById("demo1").innerHTML = ( 5 + 6) * 10
 	</script>
+	
+	<p>JavaScript uses an <b>assignment operator</b>(=) to <b>assign</b> values to variales:</p>
+	<p id="demo2"></p>
+	<script>
+		var x, y;
+		x=5;
+		y=6;
+		document.getElementById("demo2").innerHTML = x+y;
+	</script>
+
+	<h2>JavaScript Expressions</h2>
+	<p>An expression is a combination of values, variables, and operators, which computes to a value.<br>
+	The computation is called an evaluation.<br>
+	For example, 5*10 evalues to 50:</p>
+	<p>Exoressions copumpute to values.</p>
+	<p id="demo3"></p>
+	<script>
+		document.getElementById("demo3").innerHTML=5*10;
+	</script>
+
+	<p>Expressions can also contain varialbe values:</p>
+	<p>Expression compute to values</p>
+	<p id="demo4"></p>
+	<script>
+	var x
+	x = 5
+	document.getElementById("demo4").innerHTML= x * 10		
+	</script>
+
+	<h2>JavaScript Keywords</h2>
+	<p>JavaScript <b>keywords</b> are used to identify actions to be performed.<br>
+	The <b>var</b> keyword tells the browser to create variables:</p>
+	<p id="demo5"></p>
+	<script>
+		var x, y;
+		x = 5+6;
+		y = x*10;
+		document.getElementById("demo5").innerHTML = y;
+	</script>
+
+	<h2>JavaScript Comments</h2>
+	<p>Not all JavaScript statements are "executed".<br>
+	Code after double slashes <b>//</b> or betwen <b>/*</b> is a treated as a <b>comment.</b><br>
+	Comments are ignored, and will not be executed:</p>
+	<p id="demo6"></p>
+	<script>
+		var x;
+		x = 5;
+		// x=6; I will not be executed.
+		document.getElementById("demo6").innerHTML = x;
+	</script>
+
+	<h2>JavaScript Identifiers</h2>
+	<p>Identifiers are <b>names.</b></p>
+	<p>In JavaScript, identifires are used to name variables (and keywords, functions, and labels).<br>
+	The rules for legal names are much the same in most rograming languages.<br>
+	In JavaScript, the first character must be a letter, an underscore (_), or a dolar sign ($).<br>
+	Subsequent characters may be letters, digits, underscores, or dollar signs.</p>
+	<p><b>Numers are not allowed as the first character.<br>
+	This way JavaScript can easily distinguish identifiers drom numbers.</b></p>
+
+	<h2>JavaScript is Case Sensitive</h2>
+	<p>All JavaScript identifiers are <b>case sensitive.</b></p>
+	<p>The variales <b>lastName</b> and <b>lastname,</b> are two different variables.</p>
+	<p>Try change the lastName to lastname.</p>
+	<p id="demo7"></p>
+	<script>
+		var lastname, lastName;
+		lastname = "Doe";
+		lastName = "Peterson";
+		document.getElementById("demo7").innerHTML = lastName;
+	</script>
+
+	<h2>JavaScript and Camel Case</h2>
+	<p><b>Hyphens:</b></p>
+	<p>fisrst-name, last-name, master-card, inter-city.
+	<b>*Hyphens are not allowed in JavaScript. It is reserved for subtractions.</b></p>
+	<p><b>Underscore:</b></p>
+	<p>first_name, last_name, master_card, inter_city.</p>
+	<p><b>Upper Came; Case (Pascal Case):</b></p>
+	<p>FirstName, LastName, MasterCard, InterCity.</p>
+	<p><b>Lower Camel Case:</b></p>
+	<p style="color:green">JavaScript programmers tend to use camel case that starts with a lowercase letter:</p>
+	<p style="color: darkgreen"> firstName, lastName, masterCard, interCity.</p>
 </body>
 </html>
