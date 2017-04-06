@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		p,h2 {font-family: sans-serif;}
+	</style>
+</head>
+<body>
+	<h2>JavaScript Statements</h2>
+	<p>In HTML, JavaScript statements are "instructions" to be "executed" by the web browser.<br>
+	This statement tells the browser to write "Hello Dolly". inside an HTML element with id="demo".</p>
+	<p id="demo"></p>
+	<script>
+		document.getElementById("demo").innerHTML = "Hello Dolly.";
+	</script>
+
+	<h2>JavaScript Programs</h2>
+	<p>Most JavaScript programs contain many JavaScript statements.<br>
+	The statements are executed, one by one, in the same order as they are written.<br>
+	In this example x, y, and z are given values and finally z is displayed:
+	<b>JavaScript programs (and JS statements) are often called JavaScript code.</b></p>
+
+	<h2>Semicolons ;</h2>
+	<p>Semicolons separate JavaScript statements.<br>
+	Add a semicolon at the end of each executable statement:<br>
+	When se[arated by semicolons, multiple statements on one line are allowed;</p>
+	<p id="demo0"></p>
+	<script>
+		var a,b,c;
+		a = 1; b = 2; c = a + b;
+		document.getElementById("demo0").innerHTML = c
+	</script>
+	<p><b>Ending statements with semicolon is not required, but highly recommended.</b></p>
+
+	<h2>JavaScript White Space</h2>
+	<p>JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.</p>
+
+	<h2>JavaScript Line Lenght and Line Breaks</h2>
+	<p>For best readability, programers often like to avoid code lines longer than 80 characters.<br>
+	If a JavaScript statements does not fit on one line, the best place to break it, is after an operator:</p>
+	<p id = "demo2"></p>
+	<script>
+		document.getElementById("demo2").innerHTML = 
+		"Hello Dolly.";
+	</script>
+
+	<h2>JavaScript Code Blocks</h2>
+	<p>JavaScript statements can be grouped together in the code blocks, inside curly brackets {...}.<br>
+	The purpose of code blocks is to define statements to be executed together.<br>
+	One place you will find statements grouped together in bloks, is in JavaScript functions:</p>
+	<button type="button" onclick="myFunction()">Click Me!</button>
+
+	<p id="demo3"></p>
+	<p id="demo4"></p>
+	<script>
+		function myFunction() {
+			document.getElementById("demo3").innerHTML = "Hello Dolly";
+			document.getElementById("demo4").innerHTML = "How are you?";
+		}
+	</script>
+
+	<h2>JavaScript Keywords</h2>
+	<p>JavaScript statements often start with a <b>keyword</b> to identify the JavaScript action to be performed.</p>
+</body>
+</html>
