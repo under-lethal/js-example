@@ -7,4 +7,4 @@ function parSauImpar(n){
 	else {
 	return "impar"
 	}
-	}
+	};
