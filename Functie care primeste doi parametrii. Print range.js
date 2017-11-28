@@ -3,6 +3,7 @@
 function printNumberRange(x,y){
 	var i = x;
 	while (i<=y){
-	console.log (i)
-	i=i+1;}
+		console.log (i)
+	i=i+1;
+	}
 }
