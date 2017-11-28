@@ -2,12 +2,12 @@
 
 function getMinNumber(a,b,c) {
 	if (a<b) {
-	return a
+		return a
 	}
 	else{
-	return b
+		return b
 	}
 	function getMinNumber2(a,b,c){
-	return getMin (a,b), getMin(b,c)
+		return getMin (a,b), getMin(b,c)
 	}
 }
