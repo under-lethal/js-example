@@ -2,9 +2,9 @@
 
 function corigentPromovat (c) {
 	if (c>=5){
-	return "promovat"
+		return "promovat"
 	}
 	else {
-	return "corigent"
+		return "corigent"
 	}
 }

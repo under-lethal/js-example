@@ -2,9 +2,9 @@
 
 function parSauImpar(n){
 	if (n%2===0) {
-	return "par"
+		return "par"
 	} 
 	else {
-	return "impar"
+		return "impar"
 	}
-	}
+};
