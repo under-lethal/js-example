@@ -1,6 +1,6 @@
 //Fiind dată nota unui elev să se afișeze dacă acesta este corigent sau promovat.
 
-function corigentPromovat (c) {
+function corigentPromovat(c) {
 	if (c>=5){
 		return "promovat"
 	}
