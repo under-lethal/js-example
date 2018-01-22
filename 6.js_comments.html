@@ -9,13 +9,13 @@
 
 <body>
 	<h2>JavaScript Comments</h2>
-	<p>JavaScript comments can be used to explain JavaScript code, and to make it more readable.<br>
-	JAvaScript comments cand also be used to prevent executions, when testing alternative code.</p>
+		<p>JavaScript comments can be used to explain JavaScript code, and to make it more readable.<br>
+		JavaScript comments cand also be used to prevent executions, when testing alternative code.</p>
 
 	<h2>Single Line Comments</h2>
-	<p>Single line comments start with <b>//.</b></p>
-	<p>Any text betwen // and the end of the line will be ignored by JavaScript (will not be executed).<br>
-	This example uses a single-line comment before each code line:</p>
+		<p>Single line comments start with <b>//.</b></p>
+		<p>Any text betwen // and the end of the line will be ignored by JavaScript (will not be executed).<br>
+		This example uses a single-line comment before each code line:</p>
 	<h1 id="myH"></h1>
 	<p id="myP"></p>
 	
@@ -25,25 +25,24 @@
 		// Change paragraph:
 		document.getElementById('myP').innerHTML = "My fisrt paragraph";
 	</script>
-	<p><strong>Note:</strong> the comments are not executed.</p>
-
-	<p>This example uses a single line comment at the end of each line to explain the code:</p>
+		<p><strong>Note:</strong> the comments are not executed.</p>
+		<p>This example uses a single line comment at the end of each line to explain the code:</p>
 	<p id="demo"></p>
 
 	<script>
-		var x = 5;		//Decalre x, give it the value of 5
+		var x = 5;	//Decalre x, give it the value of 5
 		var y = x + 2;  //Declare y, give it the value of x + 2
 
 		document.getElementById('demo').innerHTML = y; // Wtite y to demo
 	</script>
-	<p><b>Note:</b> The comments are not executed.</p>
+		<p><b>Note:</b> The comments are not executed.</p>
 
 	<h2>Multi-line Comments</h2>
-	<p>Multi-line comments start with /* and end with */.<br>
-	Any text betwen /* and */ will be ignored by JavaScript.</p>
+		<p>Multi-line comments start with /* and end with */.<br>
+		Any text betwen /* and */ will be ignored by JavaScript.</p>
 
 	<h1 id="myH1"></h1>
-	<p id="myP1"></p>
+		<p id="myP1"></p>
 	<script>
 		/* The code below will change the heading with id ="myH1" and the paragraph with id ="myP1" in the web page: */
 		document.getElementById('myH1').innerHTML = "My fisrt page";
@@ -51,21 +50,20 @@
 	</script>
 
 	<h2>Using Comments to Prevent Execution</h2>
-	<p>using comments to prevent execution of code is suitable for code testing.<br>
-	Adding // in front of a code line changes the code lines from an executable line to a comment.</p>
-	<p>This example uses // to prevent execution of one of the code lines:</p>
+		<p>using comments to prevent execution of code is suitable for code testing.<br>
+		Adding // in front of a code line changes the code lines from an executable line to a comment.</p>
+		<p>This example uses // to prevent execution of one of the code lines:</p>
 
 	<h1 id="myH2"></h1>
-	<p id="myP2"></p>
+		<p id="myP2"></p>
 	<script>
 		//document.getElementById('myH2').innerHTML = "My fisrt page";
 		document.getElementById('myP2').innerHTML = "My first paragraph.";
 	</script>
-	<p><b>Note:</b> The comment is not executed.</p>
-
-	<p>This example uses comment block to prevent execution of multiple lines:</p>
+		<p><b>Note:</b> The comment is not executed.</p>
+		<p>This example uses comment block to prevent execution of multiple lines:</p>
 	<h1 id="myH3"></h1>
-	<p id="myP3"></p>
+		<p id="myP3"></p>
 
 	<script>
 		/*
